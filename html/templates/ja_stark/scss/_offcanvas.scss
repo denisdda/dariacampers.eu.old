@@ -1,0 +1,52 @@
+/**
+* $JA#COPYRIGHT$
+*/
+
+
+//
+// OFF-CANVAS CONTENT STYLES
+// -------------------------------------
+// Extend style in base
+// --------------------
+@import "../../../plugins/system/t4/themes/base/scss/_offcanvas";
+
+.t4-offcanvas {
+
+  // Off Canvas Header
+  // -----------------------------------
+  .t4-off-canvas-header {
+    h3 {
+      color: $t4-off-canvas-header-text-color;
+    }
+  }
+
+  // Off Canvas Body
+  // -----------------------------------  
+  .t4-off-canvas-body {
+
+    // Nav bar
+    .navbar {
+      .nav-pills .nav-link.active, 
+      .nav-pills .show > .nav-link {
+        background: none;
+        color: $t4-off-canvas-link-hover-color;
+      }
+ 
+      .nav-link,
+      .separator {
+        color: $t4-off-canvas-link-color;
+        
+        &:hover, &:focus, &:active {
+        }
+      }
+
+      // Dropdown menu
+      .dropdown-menu {
+
+        .dropdown-item,
+        .nav-link {
+        }
+      }
+    }
+  }
+}

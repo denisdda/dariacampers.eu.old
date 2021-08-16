@@ -1,0 +1,424 @@
+
+/**************************************************************************************/
+/*
+/*		Web: http://www.asdesigning.com
+/*		Web: http://www.astemplates.com
+/*		License: GNU/GPL
+/*
+/**************************************************************************************/
+
+#as-menu 
+{
+    background-color: transparent;
+	background-image: none;
+	min-height: 45px;
+	padding: 65px 0;	
+}
+
+#as-menu ul.as-menu
+{
+	float: right;
+}
+
+#as-menu ul.as-menu > li a,
+#as-menu ul.as-menu > li > span
+{
+	margin: 0px;
+	padding: 0px 10px;
+	display: block;
+	font-weight: normal;
+	line-height: auto normal;
+	letter-spacing: 0.5px;
+	color: #ffffff;	
+	text-transform: uppercase;
+}
+
+#as-menu ul.as-menu > li > span.separator
+{
+	font-size: 14px;	
+}
+
+#as-menu ul.as-menu > li,
+#as-menu ul.as-menu > li:hover
+{
+	width: auto;
+	margin: 0px 0px 0px 2px;
+	padding: 10px 20px;
+	transition: background-color 0.3s ease 0.1s;
+	border-radius: 10px;
+}
+
+#as-menu ul.as-menu > li.active,
+#as-menu ul.as-menu > li.current,
+#as-menu ul.as-menu > li:hover
+{
+	background-color: #5cc916;
+	transition: background-color 0.3s ease 0.1s;
+}
+
+#as-menu ul.as-menu > li.lastItem
+{
+	border-right: none !important;
+}
+
+#as-menu ul.as-menu > li:first-child
+{
+}
+
+#as-menu ul.as-menu > li.deeper > a:after
+{
+	top: -2px;	
+	content: none;
+}
+
+#as-menu ul.as-menu > li.active > a,
+#as-menu ul.as-menu > li.current > a,
+#as-menu ul.as-menu > li.asHover > a,
+#as-menu ul.as-menu > li:hover > a,
+#as-menu ul.as-menu > li > a:hover,
+#as-menu ul.as-menu > li > span:hover
+{
+}
+
+#as-menu ul.as-menu > li > a
+{
+	color: #FFF ;	
+}
+
+#as-menu ul.as-menu > li.active a,
+#as-menu ul.as-menu > li.current a,
+#as-menu ul.as-menu > li:hover a
+{
+	color: #FFF ;
+	transition:  0.3s ease 0.1s;
+}
+
+#as-menu ul.as-menu li:hover ul,
+#as-menu ul.as-menu li.asHover ul
+{
+	left: 0;
+	top: 45px;
+	z-index: 100;
+}
+
+#as-menu ul.as-menu ul
+{
+	background-color: #5cc916;	
+	background-image: -moz-linear-gradient(top, #5cc916, #5cc916);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5cc916), to(#5cc916));
+	background-image: -webkit-linear-gradient(top, #5cc916, #5cc916);
+	background-image: -o-linear-gradient(top, #5cc916, #5cc916);
+	background-image: linear-gradient(to bottom, #5cc916, #5cc916);
+	border-radius: 10px;	
+}
+
+#as-menu ul.as-menu ul li a,
+#as-menu ul.as-menu ul li span
+{
+	margin: 0px;
+	color: #fff !important;
+}
+
+#as-menu ul.as-menu ul li a:hover,
+#as-menu ul.as-menu ul li span:hover,
+#as-menu ul.as-menu ul li.active > a,
+#as-menu ul.as-menu ul li.asHover > a,
+#as-menu ul.as-menu ul li.active > span,
+#as-menu ul.as-menu ul li.asHover > span
+{
+	color: #76E8AC !important ;
+}
+
+#as-menu ul.as-menu ul ul
+{
+	left: 162px !important;
+}
+
+
+/************************************** as superfish menu *************************************************/
+
+
+.sf-menu
+{
+    background: transparent none repeat scroll 0 0;
+    float: right;
+    padding: 65px 0px 50px;
+    min-height: 60px;
+    position: relative;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;	
+}
+
+ul.sf-menu .sf-with-ul img
+{
+	padding: 0 5px 0 0;
+}
+
+ul.sf-menu > li.deeper > a::after 
+{
+    background: rgba(0, 0, 0, 0) url("../images/dd.arrow.png") no-repeat scroll left top;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    left: 8px;
+    position: relative;
+    top: -2px;
+    width: 7px;
+}
+
+ul.sf-menu > li > a,
+ul.sf-menu > li > span
+{
+    color: #fff;
+    display: block;
+    font-weight: normal;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+	letter-spacing: 0.5px;	
+    width: auto;	
+}
+
+ul.sf-menu > li > span.separator
+{
+	font-size: 14px;
+}
+
+ul.sf-menu > li,
+ul.sf-menu > li:hover
+{
+	line-height: 20px;
+	list-style: outside none none;
+	margin: 0;
+	transition: background 0.3s ease 0.1s;
+	width: auto;
+	margin: 0px 0px 0px 2px;
+	padding: 0px;
+}
+
+ul.sf-menu > li.active,
+ul.sf-menu > li.current,
+ul.sf-menu > li:hover
+{
+}
+
+ul.sf-menu > li 
+{
+	content: none;
+}
+
+ul.sf-menu > li.active > a,
+ul.sf-menu > li.current > a,
+ul.sf-menu > li:hover > a,
+ul.sf-menu > li > a:hover,
+ul.sf-menu > li > span:hover
+{
+	color: #ffffff;
+}
+
+ul.sf-menu > li > a
+{
+	color: #ffffff;
+}
+
+ul.sf-menu > li.active a,
+ul.sf-menu > li.current a,
+ul.sf-menu > li.active a:hover,
+ul.sf-menu > li.current a:hover,
+ul.sf-menu > li.active:hover a,
+ul.sf-menu > li.current:hover a
+{
+	transition: all 0.3s ease 0.1s;
+	background-color: #5cc916;
+	border-radius: 10px;
+}
+
+ul.sf-menu > li.active a:hover,
+ul.sf-menu > li.current a:hover,
+ul.sf-menu > li.active:hover a,
+ul.sf-menu > li.current:hover a
+{
+	color: #000000;
+}
+
+ul.sf-menu > li:hover a
+{
+	transition: all 0.3s ease 0.1s;
+	background-color: #5cc916;
+	border-radius: 10px;	
+}
+
+ul.sf-menu ul
+{
+	padding: 12px 0;
+	position: absolute;
+}
+
+ul.sf-menu ul
+{
+	left: 0px;
+	top: 103%;
+    background: #5cc916 none repeat scroll 0 0;
+    border-radius: 10px;
+    position: absolute;	
+}
+
+ul.sf-menu ul > li.deeper > a::after 
+{
+    background: rgba(0, 0, 0, 0) url("../images/ddr.arrow.png") no-repeat scroll left top;
+    content: "";
+    display: inline-block;
+    height: 7px;
+    left: 12px;
+    position: relative;
+    top: -1px;
+    width: 7px;
+}
+
+ul.sf-menu ul ul
+{
+    left: 101%;
+    top: -12px;
+}
+
+ul.sf-menu ul li
+{
+	float: left;
+	list-style: outside none none;
+	margin: 0px;
+	position: relative;
+}
+
+ul.sf-menu ul li a,
+ul.sf-menu ul li span
+{
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	color: #fff !important;
+	display: block;
+	line-height: 18px;
+	margin: 0;
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: normal;
+    padding: 5px 30px;
+}
+
+ul.sf-menu ul li a:hover,
+ul.sf-menu ul li span:hover,
+ul.sf-menu ul li.active > a,
+ul.sf-menu ul li.active > span,
+ul.sf-menu ul li.asHover > span
+{
+	color: #000000 !important;
+}
+
+.btn-sf-menu,
+a .btn-navbar .btn-sf-menu
+{
+	margin-top: 10px;
+}
+
+@media (max-width: 980px)
+{
+	ul.sf-menu 
+	{
+		padding: 45px 0px 35px;
+	}
+	
+	ul.sf-menu > li > a, 
+	ul.sf-menu > li > span 
+	{
+		padding: 10px 15px;
+	}	
+}
+
+@media (max-width: 768px)
+{
+	.navigation
+	{
+		margin-bottom: 0px;
+	}
+	
+	ul.sf-menu 
+	{
+		float: none;
+		margin-top: 0px;
+		min-height: 0px;
+		position: relative;
+		padding: 0px;
+	}
+	
+	.btn-sf-menu,
+	.navigation .btn-sf-menu
+	{
+		color: #fff;
+		margin: 10px 0px 20px;
+		background-color: #5cc916;
+		background-image: none;
+		padding: 10px 45px !important;
+		border-radius: 10px;
+	}
+
+	.btn-sf-menu:hover,
+	.navigation .btn-sf-menu:hover
+	{
+		background-color: #0055a5;
+		background-image: none;
+		color: #fff;
+	}
+	
+	ul.sf-menu > li, 
+	ul.sf-menu > li:hover
+	{
+		margin: 2px 0px 0px;
+	}
+	
+	ul.sf-menu > li.active, 
+	ul.sf-menu > li.current, 
+	ul.sf-menu > li:hover 
+	{
+    	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	    transition: background 0.3s ease 0.1s;
+	}
+	
+	ul.sf-menu li.lastItem
+	{
+		margin-bottom: 40px;
+	}
+
+	.navigation ul.sf-menu ul
+	{
+		border: none;
+		margin: 1px 0px 3px;
+	    padding: 20px 0;
+	}
+	
+	ul.sf-menu ul li.lastItem
+	{
+		margin-bottom: 0px;
+	}
+	
+	ul.sf-menu ul li
+	{
+		float: none;
+	}
+	
+	ul.sf-menu ul li a, 
+	ul.sf-menu ul li span
+	{
+		text-align: center;
+		width: 100% !important;
+		padding: 5px 0px !important;			
+	}
+	
+	.navigation ul.sf-menu ul ul 
+	{
+		background: none;
+		padding: 10px 0;
+	}	
+
+}

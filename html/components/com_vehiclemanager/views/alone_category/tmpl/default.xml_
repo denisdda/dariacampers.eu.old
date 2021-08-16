@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <layout title="Single Category">
+    <message><![CDATA[Displays a selected category of a application]]></message>
+  </layout>
+
+  <fields name="params">
+    <fieldset name="params" addfieldpath="/administrator/components/com_vehiclemanager/elements" label="Params">
+      <field name="categorylayout" type="categorylayout" default="" class="inputbox" label="Select layout" multiple ="false" size="1" description="Choose a layout" required="false" />
+      <field name="viewvehiclelayout" type="viewvehiclelayout" default="" class="inputbox" label="Select layout vehicle" multiple ="false" size="1" description="Choose a layout vehicle" required="false" />
+      <field name="showsearchvehiclelayout" type="showsearchvehiclelayout" default="1" class="inputbox" label="Select Search layout" multiple ="false" size="1" description="Choose a layout" required="false" />
+      <field name="searchresultlayout" type="searchresultlayout" default="1" class="inputbox" label="Select Search Result layout" multiple="false" size="1" description="Choose a result layout" required="false" />
+      <field name="back_button" type="list" label="Back Button" required="false" description="Show/Hide a Back Button" >
+        <option value="">Use Global</option>
+        <option value="0">Hide</option>
+        <option value="1">Show</option>
+      </field>
+      <field name="single_category" type="categoryq" default="1" class="inputbox" label="Category" multiple ="false" size="1" description="Choose a vehicle Category to show it as dedicated menu item" required="true" />
+    </fieldset>
+  </fields>
+</metadata>

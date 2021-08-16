@@ -1,0 +1,7 @@
+<?php
+JFactory::getLanguage()->load('plg_content_jllike', JPATH_ADMINISTRATOR, null, false, true);
+require_once JPATH_ROOT .'/plugins/content/jllikep/helper.php';
+$helper = PlgJLLikeHelper::getInstance();
+$helper->loadScriptAndStyle(0); //1-если в категории, 0-если в контенте
+echo $helper->ShowIN($id, $link, $title, $image);
+?>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="2.5"
+	client="site"
+	method="upgrade">
+	<name>Xeon Pricing Table</name>
+	<author>JoomShaper.com</author>
+	<creationDate>Nov 2013</creationDate>
+	<copyright>Copyright (C) 2010 - 2013 JoomShaper. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later;</license>
+	<authorEmail>support@joomshaper.com</authorEmail>
+	<authorUrl>www.joomshaper.com</authorUrl>
+	<version>1.0</version>
+	<description>Pricing Table for Xeon Template</description>
+	<files>
+		<filename module="mod_xeon_pricing_table">mod_xeon_pricing_table.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+				<!--Plan 1-->
+				<field name="plan1_spacer" type="spacer" label="Plan 1" />
+				<field name="plan1_name" type="text" label="Plan Name" description="Name of the Plan" />
+				<field name="plan1_price" type="text" label="Plan Price" description="Price of the Plan" />
+				<field name="plan1_details" type="editor" width="200" filter="safehtml" label="Plan Details" description="Plan Details" />
+				<field name="plan1_signup" type="text" label="Plan Signup" description="Plan Signup Text" />
+				<field name="plan1_signuplink" type="text" label="Signup Link" description="Link of Signup Button" />
+				<field name="plan1_is_featured" default="0" type="radio" class="btn-group" label="Featured" description="Plan Featured or Not">
+					<option value="0">No</option> 
+					<option value="1">Yes</option> 
+				</field>
+				<field name="plan1_hr" type="spacer" hr="true" />
+
+				<!--Plan 2-->
+				<field name="plan2_spacer" type="spacer" label="Plan 2" />
+				<field name="plan2_name" type="text" label="Plan Name" description="Name of the Plan" />
+				<field name="plan2_price" type="text" label="Plan Price" description="Price of the Plan" />
+				<field name="plan2_details" type="editor" width="200" filter="safehtml" label="Plan Details" description="Plan Details" />
+				<field name="plan2_signup" type="text" label="Plan Signup" description="Plan Signup Text" />
+				<field name="plan2_signuplink" type="text" label="Signup Link" description="Link of Signup Button" />
+				<field name="plan2_is_featured" default="1" type="radio" class="btn-group" label="Featured" description="Plan Featured or Not">
+					<option value="0">No</option> 
+					<option value="1">Yes</option> 
+				</field>
+				<field name="plan2_hr" type="spacer" hr="true" />
+
+				<!--Plan 3-->
+				<field name="plan3_spacer" type="spacer" label="Plan 3" />
+				<field name="plan3_name" type="text" label="Plan Name" description="Name of the Plan" />
+				<field name="plan3_price" type="text" label="Plan Price" description="Price of the Plan" />
+				<field name="plan3_details" type="editor" width="200" filter="safehtml" label="Plan Details" description="Plan Details" />
+				<field name="plan3_signup" type="text" label="Plan Signup" description="Plan Signup Text" />
+				<field name="plan3_signuplink" type="text" label="Signup Link" description="Link of Signup Button" />
+				<field name="plan3_is_featured" default="0" type="radio" class="btn-group" label="Featured" description="Plan Featured or Not">
+					<option value="0">No</option> 
+					<option value="1">Yes</option> 
+				</field>
+				<field name="plan3_hr" type="spacer" hr="true" />
+
+				<!--Plan 4-->
+				<field name="plan4_spacer" type="spacer" label="Plan 4" />
+				<field name="plan4_name" type="text" label="Plan Name" description="Name of the Plan" />
+				<field name="plan4_price" type="text" label="Plan Price" description="Price of the Plan" />
+				<field name="plan4_details" type="editor" width="200" filter="safehtml" label="Plan Details" description="Plan Details" />
+				<field name="plan4_signup" type="text" label="Plan Signup" description="Plan Signup Text" />
+				<field name="plan4_signuplink" type="text" label="Signup Link" description="Link of Signup Button" />
+				<field name="plan4_is_featured" default="0" type="radio" class="btn-group" label="Featured" description="Plan Featured or Not">
+					<option value="0">No</option> 
+					<option value="1">Yes</option> 
+				</field>
+				<field name="plan4_hr" type="spacer" hr="true" />
+
+
+			</fieldset>
+			<fieldset
+				name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static">
+					<option
+						value="static"></option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,78 @@
+#jevents {
+  padding-top:50px;
+  padding-bottom:70px;
+}
+#jevents_body {
+  border: 2px solid #888888!important;
+  background-color: #ffcd00;
+  border-radius: 0px!important;
+}
+#jevents_body .nav-items div.active a, .jev_header2 .active a {
+  background-color: #000000!important;
+}
+#jevents .nav-items > div:first-child {
+    border-radius: 0px!important;
+    border-left: 1px solid #000000!important;
+}
+#jevents .nav-items > div {
+    border: 1px solid #000000!important;
+}
+#jevents .nav-items > div:last-child {
+    border-radius: 0px!important;
+    border-right: 1px solid #000000!important;
+}
+#jevents .jev_toprow div.previousmonth, .jev_toprow div.nextmonth {
+    background-color: #000000!important;
+    border: 1px solid #000000!important;
+}
+#jevents .jev_toprow div.previousmonth {
+    border-top-left-radius: 0px!important;
+    border-bottom-left-radius: 0px!important;
+}
+#jevents .jev_toprow div.currentmonth {
+    border-top: 1px solid #000000!important;
+    border-bottom: 1px solid #000000!important;
+    margin-bottom: -1px;
+}
+.nav-items > div a {
+    color: #ffffff!important;
+}
+#jevents .jev_toprow div.currentmonth {
+    color: #fff!important;
+}
+.jev_evdt_creator a {
+  color:#fff!important;
+}
+#jevents_body .jev_evdt_desc p {
+  color:#fff!important;
+}
+#jevents .jev_evdt_creator span,
+#jevents .jev_evdt_location,
+#jevents .jev_evdt_contact,
+#jevents .jev_eventdetails_body .jev_evdt_summary,
+#jevents .jev_evdt_title,
+#jevents_body .jev_evdt_desc p,
+#jevents .jev_evdt_location,
+#jevents .jev_evdt_hits {
+  color:#fff;
+}
+ 
+/* Screen max 480px */
+@media (max-width: 480px) {
+.tab-content th {
+    text-align: left;
+    font-size: 10px!important;
+}
+.tab-content td {
+	font-size:10px!important;
+}
+.tab-content td h4 {
+	font-size:11px!important;
+}
+.tab-content p {
+	font-size:10px!important;
+}
+.tab-content .btn {
+	font-size: 7px!important;
+ }
+}

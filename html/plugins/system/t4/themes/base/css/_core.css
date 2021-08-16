@@ -1,0 +1,9 @@
+.btn {
+  white-space: normal; }
+
+a[name="top-anchor"] {
+  position: absolute;
+  top: 0;
+  height: 100px;
+  width: 0px;
+  visibility: hidden; }

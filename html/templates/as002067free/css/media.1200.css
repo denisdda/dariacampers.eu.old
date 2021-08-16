@@ -1,0 +1,98 @@
+
+/***************************************************************************************/
+/*
+/*		Author: AS Designing
+/*		Author URI: http://www.asdesigning.com
+/*		Theme URI: http://www.astemplates.com
+/*		
+/*		Note: Designed for Desktops
+/*
+/***************************************************************************************/
+
+@media (max-width: 1199px) 
+{
+	body
+	{
+		overflow-x: hidden;	
+	}
+	
+	#logo a 
+	{
+		margin: 20px 0 0 0;
+	}
+	
+	#header-wrapper
+	{
+	}
+	
+	#as-menu
+	{
+		padding: 55px 0px !important;	
+	}
+		
+	#as-menu ul.as-menu > li, 
+	#as-menu ul.as-menu > li:hover
+	{
+	}
+		
+	#slider-row #camera-slideshow	
+	{
+		min-height: inherit;
+	}
+	
+	#slider-row .camera_target_content
+	{
+		top: 200px;
+	}
+	
+	.camera_caption p
+	{
+		display: block;	
+	}
+		
+	#slider-row .camera_caption a.readmore
+	{
+		right: 60px;
+	}
+	
+	#featured-row .mod-newsflash p 
+	{
+    	float: none;
+    	overflow: hidden;
+		clear: both;
+	}
+	
+	#featured-row .mod-custom .cal-us h2 
+	{
+		font-size: 24px;
+		letter-spacing: -1px;
+	}
+
+	.moduletable.social ul li.separator 
+	{
+		display: block;
+	}
+		
+	.mod-newsflash-adv__links .item_content ul li a
+	{
+		font-size: 12px;
+	}
+	
+	.nspArt img.nspImage
+	{
+		width: 100%;
+	}
+	
+	.page-category .img-intro__left,
+	.page-category .img-intro__right
+	{
+		float: none;	
+	}
+	
+	#phocagallery-module-ri .mosaic
+	{
+		width: 138px !important;	
+	}
+	
+	
+}

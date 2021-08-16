@@ -1,0 +1,192 @@
+/**
+* $JA#COPYRIGHT$
+*/
+
+
+// EXTEND STYLE IN BASE
+// --------------------
+@import "../../../plugins/system/t4/themes/base/scss/megamenu";
+
+.t4-megamenu {
+  flex-direction: row-reverse;
+
+  // THE MEGAMENU
+  //--------------------------------------------
+  .navbar-nav {
+    > li {
+      padding-left: $navbar-padding-x/2;
+      padding-right: $navbar-padding-x/2;
+
+      > a,
+      > .nav-link {
+        color: $navbar-dark-color;
+        padding: $navbar-padding-y $navbar-padding-x;
+        border-bottom: 1px solid transparent;
+        margin-bottom: -1px;
+
+        &:hover, &:focus, &:active {
+          color: $navbar-dark-hover-color;
+        }
+
+        &:after {
+        }
+      }
+
+      // Parent focus
+      &.show,
+      &:hover {
+        
+        > a, 
+        > .nav-link {
+          color: $navbar-dark-hover-color;
+          border-bottom: 1px solid $navbar-dark-hover-color; 
+        }
+      }
+
+      // Active item
+      &.active {
+        > a,
+        > .nav-link {
+          color: $navbar-dark-active-color;
+          border-bottom: 1px solid $navbar-dark-active-color;
+        }
+      }
+    }
+  }
+
+  // Dropdown menu
+  .mega-dropdown-inner {
+    > .row > .col-md {
+      padding-right: $grid-gutter-width;
+      padding-left: $grid-gutter-width;
+    }
+  }
+
+  .dropdown-menu {
+    background-color: transparent;
+    border-radius: 0;
+    border: 0;
+    min-width: $dropdown-min-width;
+    margin-top: 0;
+    padding: 0;
+
+    @include media-breakpoint-up(lg) {
+      background: $dropdown-bg;
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+    }
+
+    ul {
+      padding-top: $spacer;
+      padding-bottom: $spacer;
+
+      > li {
+        a.nav-link,
+        a.dropdown-item {
+          color: $dropdown-link-color;
+          padding-top: $spacer/2;
+          padding-bottom: $spacer/2;
+
+          &:hover {
+            color: $secondary;
+            background: $dropdown-link-hover-bg;
+          }
+        }
+      }
+
+      > .active {
+        a.nav-link,
+        a.dropdown-item {
+          color: $secondary;
+        }
+      }
+    }
+
+    .mega-nav {
+      > li {
+        a.nav-link,
+        a.dropdown-item {
+          padding-right: 0;
+          padding-left: 0;
+          color: $dropdown-link-color;
+
+          &:hover {
+            color: $secondary;
+            background: $dropdown-link-hover-bg;
+          }
+        }
+      }
+
+      > .active {
+        a.nav-link,
+        a.dropdown-item {
+          color: $secondary;
+        }
+      }
+    }
+
+    > li {
+      &:last-child {
+        border: 0;
+      }
+
+      > a,
+      > .nav-link { 
+        color: $navbar-light-color;
+        padding: $navbar-padding-y/1.5 $navbar-padding-x;
+
+        &:hover, &:focus, &:active {
+          color: $navbar-light-hover-color;
+
+          @include media-breakpoint-up(lg) {
+            background-color: $gray-100;
+          }
+        }
+      }
+    }
+  }
+
+  // Parent hover
+  .parent {
+  }
+
+  .dropdown-toggle {
+    &:after {
+      margin-top: $spacer/2;
+      float: right;
+    }
+  }
+
+  .dropdown {
+    &:hover {
+      > .dropdown-menu {
+      } 
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 1rem 0;
+    }
+  }
+
+  // Modules in Megamenu
+  // -------------------
+  .t4-module {
+    border-radius: 0;
+    border: 0;
+  }
+
+  .t4-module, 
+  .mega-col-nav {
+    .mega-col-title {
+      padding-bottom: $spacer;
+      padding-top: $spacer;
+      font-size: $font-size-base;
+      color: $headings-color;
+    }
+  }
+
+  .t4-module .module-inner {
+  }
+
+}

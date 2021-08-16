@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0.0" method="upgrade">
+                <name>Jivosite</name>
+        
+        <creationDate>october 2016</creationDate>
+        <author>Jivosite</author>
+        <authorEmail>info@jivosite.com</authorEmail>
+        <authorUrl>http://jivochat.com</authorUrl>
+        <copyright>Jivosite inc</copyright>
+        <license>License Info</license>
+                <version>0.1.9</version>
+       <description>This module will install the chat code on your website</description>
+  
+        <files>
+                <filename module="mod_jivosite">mod_jivosite.php</filename>
+                <filename module="mod_jivosite">mod_jivosite.xml</filename>
+               
+        </files>
+	<config>
+        <fields name="params">
+            <fieldset name="basic">
+               <field name="chatcode" type="text" default="" label="Widget ID" description="insert the Widget ID from the chat code here" size="30" />
+			   <field name="geo" type="checkbox" label="Geo IP enabled" description="Check if the Geo IP is enabled" value="1" default="0" />
+            </fieldset>
+        </fields>
+    </config>
+
+</extension>

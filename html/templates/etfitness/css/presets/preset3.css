@@ -1,0 +1,202 @@
+a {
+  color: #d93b26;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item >a:hover {
+  background: #d93b26;
+}
+#sp-bottom2 span,
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item.active>a {
+  color: #d93b26;
+}
+#offcanvas-toggler >i:hover {
+  color: #d93b26;
+}
+.btn-primary,
+.sppb-btn-primary {
+  border-color: #0faae4;
+  background-color: #d93b26;
+}
+.btn-primary:hover,
+.sppb-btn-primary:hover {
+  border-color: #0d8ab9;
+  background-color: #0e9cd1;
+}
+.social-links>a,
+ul.social-icons >li a:hover {
+  color: #d93b26;
+}
+.sp-page-title {
+  background: #d93b26;
+}
+.layout-boxed .body-innerwrapper {
+  background: #ffffff;
+}
+.sp-module ul >li >a {
+  color: #000000;
+}
+.sp-module ul >li >a:hover {
+  color: #d93b26;
+}
+.sp-module .letestnews >div >a {
+  color: #000000;
+}
+.sp-module .letestnews >div >a:hover {
+  color: #d93b26;
+}
+.sp-module .tagscloud .tag-name:hover {
+  background: #d93b26;
+}
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover {
+  background: #d93b26;
+}
+.search .btn-toolbar button {
+  background: #d93b26;
+}
+.post-formet {
+  background: #d93b26;
+}
+.voting-symbol span.star.active:before {
+  color: #d93b26;
+}
+.sp-reting span.star:hover:before,
+.sp-reting span.star:hover ~ span.star:before {
+  color: #0e9cd1;
+}
+.entry-link,
+.entry-quote {
+  background: #d93b26;
+}
+.et-team-item,
+blockquote {
+  border-color: #d93b26;
+}
+.carousel-left:hover,
+.carousel-right:hover {
+  background: #d93b26;
+}
+#sp-footer {
+  background: #d93b26;
+}
+.sp-comingsoon body {
+  background-color: #d93b26;
+}
+.paginetion>li>a,
+.paginetion>li>span {
+  color: #000000;
+}
+.paginetion>li>a:hover,
+.paginetion>li>a:focus,
+.paginetion>li>span:hover,
+.paginetion>li>span:focus {
+  color: #000000;
+}
+.paginetion>.active>a,
+.paginetion>.active>span {
+  border-color: #d93b26;
+  background-color: #d93b26;
+}
+.paginetion>.active>a:hover,
+.paginetion>.active>a:focus,
+.paginetion>.active>span:hover,
+.paginetion>.active>span:focus {
+  border-color: #d93b26;
+  background-color: #d93b26;
+}
+.qx-btn:before,
+.qx-btn:hover,
+.et-slider .tp-caption a,
+.et-intro-item:hover i,
+.et-felture-item:hover i,
+.et-portfolio-button:hover,
+.et-action-button:hover,
+.et-table-item:hover button,
+#et-pricing .single-table:nth-child(2) {
+  background: #d93b26;
+}
+.et-about-content-item i,
+.et-title h2,
+.et-intro-item i,
+.et-felture-item h4,
+.et-table-item h3,
+.et-service-item h4,
+.et-service-item i,
+.et-table-item .table-price .price,
+.et-table-item button:hover a,
+.et-testimonial p.qx-designltion,
+.et-testimonial button {
+  color: #d93b26; 
+}
+.et-felture-item:hover i,
+.et-portfolio-button:hover,
+.et-action-button:hover,
+.et-table-item:hover,
+.et-service-item .button-service,
+.et-table-item button,
+.et-subscribe-content table .button:hover {
+  border-color: #d93b26;
+}
+/* Important */
+.et-slider .tp-caption  b,
+.et-team-item:hover p,
+.et-about h4,
+.et-title h6,
+.et-title-1 h6,
+.et-service-item:hover h3,
+.et-feature-item i,
+.et-title h4,
+.tp-caption.excerpt, .excerpt,
+.et-team-item .qx-person-position,
+.et-about h5,
+.et-training-title h5,
+.et-blog div.k2ItemsBlock ul li a,
+.et-services-item:hover i,
+.et-services-item:hover h4 {
+  color: #d93b26!important; 
+}
+.et-contact #sp-quickcontact-form .button:hover,
+.projects-filter a.selected,
+ .et-why-chose-item i,
+ .et-counter,
+.et-feature-item h3,
+ #et-testimonial .button:hover,
+ #et-feature .et-button:hover,
+.et-service-item .button-service,
+ .et-pricing-item .table-footer,
+ .et-pricing-item .table-heading,
+ .et-we-do-item .qx-progress-bar,
+ .et-allowing,
+.et-we-do-item i,div.itemCommentsForm form input#submitCommentButton,
+.et-blog ul li .moduleItemDateCreated,
+.et-we-do-item i,
+.et-contact-item:hover i,
+.et-contact-form button,
+.et-subscribe-content table .button:hover {
+  background: #d93b26!important;  
+}
+#jevents_body,
+#et-contact,
+.project-wrapper .btn-go-back,
+.sp-megamenu-parent >li.active>a, .sp-megamenu-parent >li:hover>a, .sp-contact-info li {
+  background-color:#d93b26!important;  
+}
+.qx-btn,
+#et-pricing .single-table,
+.et-contact #sp-quickcontact-form .button:hover,
+.et-service-item:hover,
+.tp-button,
+#jevents_body,
+.et-blog ul li .moduleItemDateCreated:after,
+.et-contact-form button,
+.sp-megamenu-parent >li.active>a, .sp-megamenu-parent >li:hover>a,
+.et-contact-item i,
+.et-we-do-item i {
+  border-color: #d93b26!important; 
+}
+.projects-wrapper .project-img .project-img-extra {
+    background-image: -webkit-linear-gradient(top , rgba(255, 85, 52, 0.59) 0%, rgba(255, 85, 52, 0.5) 100%)!important;
+}
+.et-blog ul li .moduleItemDateCreated:after {
+    border-top: 32px solid #d93b26!important;
+    border-right: 36px solid transparent!important; 
+}

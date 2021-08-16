@@ -1,0 +1,439 @@
+
+/* Pattern: Dark */
+.t4-palette-dark {
+	color: #f0f0f0;
+	background-color: #1e7ed8;
+}
+.t4-palette-dark a:not(.btn) {
+	color: #050505;
+}
+.t4-palette-dark a:not(.btn):hover {
+	color: #050505;
+}
+/* Heading */
+.t4-palette-dark h1,
+.t4-palette-dark h2,
+.t4-palette-dark h3,
+.t4-palette-dark h4,
+.t4-palette-dark h5,
+.t4-palette-dark h6 {
+	color: #f0f0f0;
+}
+/* Module */
+.t4-palette-dark .nav > li > a {
+	color: #050505;
+}
+.t4-palette-dark .nav > li > a:hover,
+.t4-palette-dark .nav > li > a:focus,
+.t4-palette-dark .nav > li > a:active {
+	color: #050505;
+}
+.layout-home .t4-sticky.t4-palette-dark {
+	background-color: transparent;
+}
+.not-at-top .t4-sticky.t4-palette-dark {
+	background-color: #1e7ed8;
+}
+
+/* Pattern: Primary */
+.t4-palette-primary {
+	color: #f0f0f0;
+	background-color: #ffffff;
+}
+.t4-palette-primary a:not(.btn) {
+	color: #050505;
+}
+.t4-palette-primary a:not(.btn):hover {
+	color: #050505;
+}
+/* Heading */
+.t4-palette-primary h1,
+.t4-palette-primary h2,
+.t4-palette-primary h3,
+.t4-palette-primary h4,
+.t4-palette-primary h5,
+.t4-palette-primary h6 {
+	color: #f0f0f0;
+}
+/* Module */
+.t4-palette-primary .nav > li > a {
+	color: #050505;
+}
+.t4-palette-primary .nav > li > a:hover,
+.t4-palette-primary .nav > li > a:focus,
+.t4-palette-primary .nav > li > a:active {
+	color: #050505;
+}
+.layout-home .t4-sticky.t4-palette-primary {
+	background-color: transparent;
+}
+.not-at-top .t4-sticky.t4-palette-primary {
+	background-color: #ffffff;
+}
+
+/* Pattern: Gray */
+.t4-palette-gray {
+	color: rgba(3, 3, 3, 0.76);
+	background-color: #f8f9fa;
+}
+.t4-palette-gray a:not(.btn) {
+	color: #050505;
+}
+.t4-palette-gray a:not(.btn):hover {
+	color: #050505;
+}
+/* Heading */
+.t4-palette-gray h1,
+.t4-palette-gray h2,
+.t4-palette-gray h3,
+.t4-palette-gray h4,
+.t4-palette-gray h5,
+.t4-palette-gray h6 {
+	color: #1e7ed8;
+}
+/* Module */
+.t4-palette-gray .nav > li > a {
+	color: #050505;
+}
+.t4-palette-gray .nav > li > a:hover,
+.t4-palette-gray .nav > li > a:focus,
+.t4-palette-gray .nav > li > a:active {
+	color: #050505;
+}
+.layout-home .t4-sticky.t4-palette-gray {
+	background-color: transparent;
+}
+.not-at-top .t4-sticky.t4-palette-gray {
+	background-color: #f8f9fa;
+}
+
+/* Pattern: Transparent */
+.t4-palette-transparent {
+	color: #f0f0f0;
+	background-color: rgba(255, 255, 255, 0);
+}
+.t4-palette-transparent a:not(.btn) {
+	color: #050505;
+}
+.t4-palette-transparent a:not(.btn):hover {
+	color: #050505;
+}
+/* Heading */
+.t4-palette-transparent h1,
+.t4-palette-transparent h2,
+.t4-palette-transparent h3,
+.t4-palette-transparent h4,
+.t4-palette-transparent h5,
+.t4-palette-transparent h6 {
+	color: #f0f0f0;
+}
+/* Module */
+.t4-palette-transparent .nav > li > a {
+	color: #050505;
+}
+.t4-palette-transparent .nav > li > a:hover,
+.t4-palette-transparent .nav > li > a:focus,
+.t4-palette-transparent .nav > li > a:active {
+	color: #050505;
+}
+.layout-home .t4-sticky.t4-palette-transparent {
+	background-color: transparent;
+}
+.not-at-top .t4-sticky.t4-palette-transparent {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+/* Section: topbar */
+
+#t4-topbar .bg-overlay {
+	opacity: 0.5;
+}
+
+/* Section: header */
+#t4-header {
+	position: -webkit-sticky !important;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+#t4-header .bg-overlay {
+	opacity: 0.5;
+}
+#t4-header .bg-overlay-image {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+}
+
+/* Section: masthead */
+
+#t4-masthead .bg-overlay {
+	opacity: 1;
+}
+#t4-masthead .bg-overlay-image {
+	background-image: url(/images/background23.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: inherit;
+}
+
+/* Section: mainbody */
+
+#t4-mainbody .bg-overlay {
+	opacity: 0.5;
+}
+
+/* Section: footer */
+
+#t4-footer .bg-overlay {
+	opacity: 0.5;
+}
+
+/* Section: footnav */
+
+#t4-footnav .bg-overlay {
+	opacity: 0.5;
+}
+/**
+ * ------------------------------------------------------------------------
+ * JA Stark Template
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2018 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+:root {
+  --primary: #ffffff;
+  --secondary: #050505;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f0f0f0;
+  --dark: #1e7ed8;
+}
+/* for megamenu animation duration */
+.t4-megamenu.animate .dropdown.animating > .dropdown-menu {
+  transition-duration: 400ms; 
+}
+body {
+  background-color: #ffffff;
+  color: rgba(3, 3, 3, 0.76);
+  font-family: Arimo;
+  font-weight: 400;
+  letter-spacing: normal; 
+}
+.t4-content {
+  background-repeat: repeat;
+  background-position: left top;
+  background-size: inherit;
+  background-attachment: scroll;
+  background-color: #f0f0f0; 
+}
+a {
+  color: #050505; 
+}
+a:hover {
+  color: #050505; 
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arimo;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: normal; 
+}
+h1, .h1 {
+  font-size: 32px; 
+}
+h2, .h2 {
+  font-size: 24px; 
+}
+h3, .h3 {
+  font-size: 18px; 
+}
+h4, .h4 {
+  font-size: 14px; 
+}
+h5, .h5 {
+  font-size: 12px; 
+}
+h6, .h6 {
+  font-size: 11px; 
+}
+/* COLORS
+--------------------------------------- */
+/* Backgrounds Colors */
+.bg-primary {
+  background-color: #ffffff !important; 
+}
+.bg-secondary {
+  background-color: #050505 !important; 
+}
+.bg-success {
+  background-color: #28a745 !important; 
+}
+.bg-info {
+  background-color: #17a2b8 !important; 
+}
+.bg-warning {
+  background-color: #ffc107 !important; 
+}
+.bg-danger {
+  background-color: #dc3545 !important; 
+}
+.bg-light {
+  background-color: #f0f0f0 !important; 
+}
+.bg-dark {
+  background-color: #1e7ed8 !important; 
+}
+/* Buttons Colors */
+.btn.btn-primary {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important; 
+}
+.btn.btn-primary:hover {
+  opacity: 0.85; 
+}
+.btn.btn-secondary {
+  background-color: #050505 !important;
+  border-color: #050505 !important; 
+}
+.btn.btn-secondary:hover {
+  opacity: 0.85; 
+}
+.btn.btn-success {
+  background-color: #28a745 !important;
+  border-color: #28a745 !important; 
+}
+.btn.btn-success:hover {
+  opacity: 0.85; 
+}
+.btn.btn-info {
+  background-color: #17a2b8 !important;
+  border-color: #17a2b8 !important; 
+}
+.btn.btn-info:hover {
+  opacity: 0.85; 
+}
+.btn.btn-warning {
+  background-color: #ffc107 !important;
+  border-color: #ffc107 !important; 
+}
+.btn.btn-warning:hover {
+  opacity: 0.85; 
+}
+.btn.btn-danger {
+  background-color: #dc3545 !important;
+  border-color: #dc3545 !important; 
+}
+.btn.btn-danger:hover {
+  opacity: 0.85; 
+}
+.btn.btn-light {
+  background-color: #f0f0f0 !important;
+  border-color: #f0f0f0 !important; 
+}
+.btn.btn-light:hover {
+  opacity: 0.85; 
+}
+.btn.btn-dark {
+  background-color: #1e7ed8 !important;
+  border-color: #1e7ed8 !important; 
+}
+.btn.btn-dark:hover {
+  opacity: 0.85; 
+}
+/* Text Colors */
+.text-primary {
+  color: #ffffff !important; 
+}
+.text-secondary {
+  color: #050505 !important; 
+}
+.text-success {
+  color: #28a745 !important; 
+}
+.text-info {
+  color: #17a2b8 !important; 
+}
+.text-warning {
+  color: #ffc107 !important; 
+}
+.text-danger {
+  color: #dc3545 !important; 
+}
+.text-light {
+  color: #f0f0f0 !important; 
+}
+.text-dark {
+  color: #1e7ed8 !important; 
+}
+/* Badage Colors */
+.badge-primary {
+  background-color: #ffffff; 
+}
+.badge-secondary {
+  background-color: #050505; 
+}
+.badge-success {
+  background-color: #28a745; 
+}
+.badge-info {
+  background-color: #17a2b8; 
+}
+.badge-warning {
+  background-color: #ffc107; 
+}
+.badge-danger {
+  background-color: #dc3545; 
+}
+.badge-light {
+  background-color: #f0f0f0; 
+}
+.badge-dark {
+  background-color: #1e7ed8; 
+}
+/* TPL
+--------------------------------------- */
+.contact .contact-links ul li a:hover > span, .contact .contact-links ul li a:focus > span, .contact .contact-links ul li a:active > span {
+  background: #ffffff;
+  border-color: #ffffff; 
+}
+.t4-section.t4-pattern-primary {
+  background: #ffffff; 
+}
+  .t4-section.t4-pattern-primary .bg-overlay-image::after {
+    background: #ffffff; 
+}
+.acm-hero .btn.html5lightbox.primary,
+.acm-hero .btn.html5link.primary {
+  background: #ffffff; 
+}
+.t4-megamenu .dropdown-menu ul > li a.nav-link:hover,
+.t4-megamenu .dropdown-menu ul > li a.dropdown-item:hover {
+  color: #050505; 
+}
+.t4-megamenu .dropdown-menu ul > .active a.nav-link,
+.t4-megamenu .dropdown-menu ul > .active a.dropdown-item {
+  color: #050505; 
+}
+.t4-megamenu .dropdown-menu .mega-nav > li a.nav-link:hover,
+.t4-megamenu .dropdown-menu .mega-nav > li a.dropdown-item:hover {
+  color: #050505; 
+}
+.t4-megamenu .dropdown-menu .mega-nav > .active a.nav-link,
+.t4-megamenu .dropdown-menu .mega-nav > .active a.dropdown-item {
+  color: #050505; 
+}
+.module-title {
+  color: #050505; 
+}
+#t4-section-7 .t4-section-module .module-title {
+  color: #050505; 
+}

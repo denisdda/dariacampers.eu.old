@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="View Vehicle">
+        <message><![CDATA[View Vehicle]]></message>
+    </layout>
+
+    <fields name="params">
+        <fieldset name="params" addfieldpath="/administrator/components/com_vehiclemanager/elements" label="Params">
+          <field name="viewvehiclelayout" type="viewvehiclelayout" default="" class="inputbox" label="Select layout" multiple ="false" size="1" description="Choose a layout vehicle" required="false" />
+            <field name="back_button" type="list" label="Back Button" required="false" description="Show/Hide a Back Button">
+                <option value="">Use Global</option>
+                <option value="0">Hide</option>
+                <option value="1">Show</option>
+            </field>
+            <field name="vehicle" type="vehicle" default="1" class="inputbox" label="Vehicle" multiple ="false" size="1" description="Choose a Vehicle to show it as dedicated menu item" required="true" />
+        </fieldset>
+    </fields>
+</metadata>
+
+

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.7//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.7/template-install.dtd">
+<extension version="2.5" type="template" client="site" method="upgrade">
+	<name>jl_blank_free</name>
+	<version>1.0.3</version>
+	<creationDate>Jan 2016</creationDate>
+	<author>JoomLead</author>
+	<authorEmail>support@joomlead.com</authorEmail>
+	<authorUrl>http://www.joomlead.com</authorUrl>
+    <copyright>Copyright (C) JoomLead</copyright>
+    <license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
+	<description>
+	        <![CDATA[
+        <div class="overview-header" style="text-align: left;">
+            <h2>
+              <small style="display: block;">Responsive Joomla Template - <strong>JL Blank</strong></small></h2>
+            <p>Professional joomla 3+ template by JoomLead. JL Blank is based on Warp 7 theme framework.</p>
+            <p>For general information on template features, troubleshooting and support, visit <a href="http://joomlead.com/" target="_blank">JoomLead.com</a></p>
+            </div>
+        ]]>
+	</description>
+	<files>
+		<filename>checksums</filename>
+		<filename>apple_touch_icon.png</filename>
+		<filename>CHANGELOG.md</filename>
+		<filename>component.php</filename>
+		<filename>config.php</filename>
+		<filename>config.xml</filename>
+		<filename>config.default.json</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>offline.php</filename>
+		<filename>raw.php</filename>
+		<filename>warp.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>js</folder>
+		<folder>layouts</folder>
+		<folder>images</folder>
+		<folder>less</folder>
+		<folder>warp</folder>
+	</files>
+	<positions>
+			<position settings="">search</position>
+			<position settings="">logo</position>
+			<position settings="">logo-small</position>
+			<position settings="">menu</position>
+			<position settings="">toolbar-l</position>
+			<position settings="">toolbar-r</position>
+			<position settings="">breadcrumbs</position>
+			<position>slideshow</position>
+			<position>top-a</position>
+			<position>top-b</position>
+			<position>top-c</position>
+			<position>top-d</position>
+			<position>bottom-a</position>
+			<position>bottom-b</position>
+			<position>bottom-c</position>
+			<position>bottom-d</position>
+			<position>main-top</position>
+			<position>main-bottom</position>
+			<position>sidebar-a</position>
+			<position>sidebar-b</position>
+			<position>footer</position>
+			<position>offcanvas</position>
+			<position settings="">debug</position>
+	</positions>
+	<config>
+		<fields name="params" addfieldpath="/templates/jl_blank_free/warp/systems/joomla/config/elements">
+			<fieldset name="options">
+		    	<field name="config" type="config" label="Config" description="" default="" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
